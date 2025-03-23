@@ -1,0 +1,175 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #8b0000); /* Black to Dark Red */
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center; /* Center all text and inline elements */
+}
+
+/* Main Title Styling */
+.main-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 4px 4px 15px rgba(255, 0, 0, 0.5);
+}
+
+/* Section Title Styling */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 4px 4px 15px rgba(255, 0, 0, 0.5);
+}
+
+/* Subsection Title Styling */
+.subsection-title {
+    font-size: 2rem; /* Slightly smaller font size for subsection titles */
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ff4d4d; /* Bright red for subsection titles */
+    text-shadow: 1px 1px 5px rgba(255, 0, 0, 0.5);
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ddd;
+ /* Align text to the left within the paragraph */
+}
+
+/* List Styling */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 1.2rem;
+    color: #ddd;
+    text-align: left;
+}
+
+/* Strong Emphasis */
+strong {
+    color: #fff; /* White for emphasis */
+}
+
+/* Table Styling */
+.output-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add spacing above the table */
+}
+
+.output-table th,
+.output-table td {
+    border: 1px solid #8b0000;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle; /* Ensure vertical alignment */
+}
+
+.output-table th {
+    background-color: #8b0000;
+    color: white;
+    font-weight: bold;
+}
+
+.output-table tr:nth-child(odd) {
+    background-color: #1a1a1a;
+}
+
+.output-table tr:nth-child(even) {
+    background-color: #2a0a0a;
+}
+
+.output-table tr:hover {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+/* Back button */
+.back-btn {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(135deg, #ff0000, #8b0000);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background: linear-gradient(135deg, #ff4d4d, #b30000);
+    box-shadow: 0px 5px 15px rgba(255, 0, 0, 0.3);
+}
+
+/* Algorithm Section Styling */
+.algorithm-section {
+    margin-bottom: 40px;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.algorithm-section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff4d4d; /* Bright red for algorithm section titles */
+    text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.5);
+}
+
+.algorithm-section p {
+    margin-bottom: 15px;
+}
+
+.algorithm-section ul {
+    margin-bottom: 20px;
+}
+
+.algorithm-section li {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 5px;
+}
+
+/* Code Block Styling */
+.code-block {
+    background-color: #2a2a2a; /* Dark gray background for code blocks */
+    color: #fff; /* White text for better readability */
+    font-family: 'Courier New', monospace; /* Monospace font for code */
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto; /* Enable horizontal scrolling for long lines */
+    margin-bottom: 20px;
+}
+
+/* Math Equations */
+.math-equation {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 10px 0;
+    text-align: center;
+}
